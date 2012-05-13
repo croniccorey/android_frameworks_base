@@ -1415,7 +1415,7 @@ status_t StagefrightRecorder::setupCameraSource(
 
     mIsMetaDataStoredInVideoBuffers =
 #ifdef QCOM_HARDWARE
-        !useMeta ? FALSE :
+        !useMeta ? false :
 #endif
         (*cameraSource)->isMetaDataStoredInVideoBuffers();
 
